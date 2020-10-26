@@ -1,3 +1,6 @@
+//DCL00-J. Prevent class initialization cycles (Intraclass Cycle seen below)
+//See Rule 01 - Declarations and Initialization (DCL)
+
 public class Cycle {
   private final int balance;
   private static final int deposit = (int) (Math.random() * 100); // Random deposit
